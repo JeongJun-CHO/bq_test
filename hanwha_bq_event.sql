@@ -58,6 +58,7 @@ WITH base AS (
 
   FROM
     `{{ 테이블 }}`
+  WHERE event_name = 'click_event' --맞춤 이벤트만 
 )
 
 SELECT
